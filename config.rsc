@@ -1,6 +1,6 @@
 # Definition of a function to retrieve and update the list of Iranian IP addresses
 :local update_iran_ip_list do={
-  :local github_url "https://raw.githubusercontent.com/arastu/iran_ip_ranges/master/iran_ip_range.txt"
+  :local github_url "https://raw.githubusercontent.com/clonerdev/iran-ip-range/main/iran_ip_range.txt"
   :local temp_file "iran_ip_range.txt"
   
   # Fetching the list of Iranian IP addresses from GitHub
